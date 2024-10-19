@@ -80,7 +80,7 @@ public class Launcher
 	public static final File LOGS_DIR = new File(OPENOSRS_DIR, "logs");
 	private static final File REPO_DIR = new File(OPENOSRS_DIR, "repository2");
 	public static final File CRASH_FILES = new File(LOGS_DIR, "jvm_crash_pid_%p.log");
-	static final String LAUNCHER_BUILD = "https://raw.githubusercontent.com/jbx5/devious-launcher/master/build.gradle.kts";
+	static final String LAUNCHER_BUILD = "https://raw.githubusercontent.com/melxin/devious-launcher/master/build.gradle.kts";
 	static final String USER_AGENT = "Devious/" + LauncherProperties.getVersion();
 
 	static final String CLIENT_MAIN_CLASS = "net.unethicalite.client.Unethicalite";

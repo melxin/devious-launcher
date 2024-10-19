@@ -29,7 +29,7 @@ public class GitHubUtils
 	{
 		try
 		{
-			return GITHUB.getRepository("jbx5/devious-hosting");
+			return GITHUB.getRepository("melxin/devious-hosting");
 		}
 		catch (IOException e)
 		{
